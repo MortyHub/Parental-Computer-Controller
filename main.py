@@ -7,7 +7,6 @@ window = Tk()
 def Start():
     try:
         timer = int(textField.get("1.0", "end-1c"))
-        print(timer)
         success = Label(window, text="Starting...", fg='Green', font=("Helvetica", 16))
         success.place(x=200,y=200)
         time.sleep(5)
